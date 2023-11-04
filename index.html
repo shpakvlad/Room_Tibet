@@ -1,19 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Room Tibet</title>
+        <title>Room Tibet</title>
 
-    <link rel="stylesheet" href="./res/css/vendors/normalize.css">
-    <link rel="stylesheet" href="./res/css/vars.css">
-    <link rel="stylesheet" href="./res/css/fonts.css">
-    <link rel="stylesheet" href="./res/css/main.css">
+        <link rel="stylesheet" href="./res/css/vendors/normalize.css" />
+        <link rel="stylesheet" href="./res/css/colors.css" />
+        <link rel="stylesheet" href="./res/css/fonts.css" />
+        <link rel="stylesheet" href="./res/css/main.css" />
+    </head>
+    <body>
+        <!----------------------------------------------->
+        <!--                  HEADER                   -->
+        <!----------------------------------------------->
+        <header>
+            <div class="wrapper grid">
+                <div class="main-menu">
+                    <img src="./res/img/logo/logo-small-white.png" alt="" />
 
-</head>
-<body>   
+                    <div class="menu-panel">
+                        <nav>
+                            <a href="#">Главная</a>
+                            <a href="#">Про гида</a>
+                            <a href="#">Программа тура</a>
+                            <a href="#">Стоимость</a>
+                            <a href="#">Блог</a>
+                            <a href="#">Контакты</a>
+                        </nav>
+                        <button class="menu-btn btn" type="button">
+                            Консультация
+                        </button>
+                    </div>
+                </div>
 
-    <script defer src="./res/js/main.js"></script>
-</body>
+                <h1>Насладись прогулкой в горах с командой единомышленников</h1>
+
+                <form class="find-prog">
+                    <div class="input-1">
+                        <select name="plans" id="plan-select">
+                            <option value="">Локация для тура</option>
+                            <option value="plan-1">Plan 1</option>
+                            <option value="plan-2">Plan 2</option>
+                            <option value="plan-3">Plan 3</option>
+                            <option value="plan-4">Plan 4</option>
+                        </select>
+                        <label for="plan-select">выберите из списка</label>
+                    </div>
+
+                    <div class="input-2">
+                        <input type="date" name="start-date" id="start-date" />
+                        <label for="start-date">укажите диапазон</label>
+                    </div>
+
+                    <div class="input-3">
+                        <select name="peoples" id="peoples-select">
+                            <option value="">Участники</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="4">5</option>
+                            <option value="4">6</option>
+                            <option value="4">7</option>
+                            <option value="4">8</option>
+                            <option value="4">9</option>
+                            <option value="4">10</option>
+                        </select>
+                        <label for="plan-select">минимум 4 человека</label>
+                    </div>
+
+                    <button class="menu-btn btn btn-white" type="button">
+                        Найти программу
+                    </button>
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <!----------------------------------------------->
+            <!--                   ABOUT                   -->
+            <!----------------------------------------------->
+            <section class="about wrapper grid">
+                <!-- <div class="about-data"> -->
+                <div class="about-images">
+                    <img src="./res/img/about-1.png" alt="" />
+                    <img src="./res/img/about-2.png" alt="" />
+                </div>
+
+                <div class="about-details">
+                    <h3>о нашем походе</h3>
+                    <h2>Исследуйте все горные массивы мира вместе с нами</h2>
+
+                    <p>
+                        Его корни уходят в один фрагмент классической латыни 45
+                        года н.э., то есть более двух тысячелетий назад. Ричард
+                        МакКлинток, профессор латыни из колледжа Hampden-Sydney,
+                        штат Вирджиния, взял одно из самых странных слов в Lorem
+                        Ipsum, "consectetur"и занялся его поисками в
+                        классической латинской литературе.
+                    </p>
+
+                    <button class="btn" type="button">Программа тура</button>
+                </div>
+                <!-- </div> -->
+            </section>
+
+            <!----------------------------------------------->
+            <!--                   OFFER                   -->
+            <!----------------------------------------------->
+            <section class="offer">
+                <div class="wrapper grid">
+                    <div class="offer-details">
+                        <h3>наше предложение</h3>
+
+                        <h2>Лучшие программы для тебя</h2>
+
+                        <p>
+                            Его корни уходят в один фрагмент классической латыни
+                            45 года н.э., то есть более двух тысячелетий назад.
+                            Ричард МакКлинток, профессор латыни из колледжа.
+                        </p>
+
+                        <div class="offer-text">
+                            <img src="./res/img/svg/expr.svg" alt="" />
+                            <div class="offers-details">
+                                <h5>Опытный гид</h5>
+                                <p>
+                                    Для современного мира базовый вектор
+                                    развития предполагает независимые способы
+                                    реализации соответствующих условий
+                                    активизации.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="offer-text">
+                            <img src="./res/img/svg/shield.svg" alt="" />
+                            <div class="offers-details">
+                                <h5>Безопасный поход</h5>
+                                <p>
+                                    Для современного мира базовый вектор
+                                    развития предполагает независимые способы
+                                    реализации соответствующих условий
+                                    активизации.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="offer-text">
+                            <img src="./res/img/svg/prices.svg" alt="" />
+                            <div class="offers-details">
+                                <h5>Лояльные цены</h5>
+                                <p>
+                                    Для современного мира базовый вектор
+                                    развития предполагает независимые способы
+                                    реализации соответствующих условий
+                                    активизации.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offer-img">
+                        <img src="./res/img/reference-1.png" alt="" />
+                        <img src="./res/img/reference-2.png" alt="" />
+                        <img src="./res/img/reference-3.png" alt="" />
+                        <img src="./res/img/reference-4.png" alt="" />
+                    </div>
+                </div>
+            </section>
+
+            <!----------------------------------------------->
+            <!--                  POPULAR                  -->
+            <!----------------------------------------------->
+            <section class="popular">
+                <div class="wrapper">
+                    <h3 class="text-center">по версии отдыхающих</h3>
+                    <h2 class="text-center">Популярные направления</h2>
+
+                    <div class="pop-grid grid">
+                        <div class="pop-img pop-img-1">
+                            <!-- one -->
+                            <img
+                                class="pop-img"
+                                src="./res/img/popular_tour-1.png"
+                                alt=""
+                            />
+                            <div class="pop-img-details">
+                                <p class="pop-img-header">Озеро возле гор</p>
+                                <p class="pop-img-text">
+                                    романтическое приключение
+                                </p>
+                            </div>
+                            <p class="pop-img-price">480 $</p>
+                            <div class="pop-img-rating">
+                                <img src="./res/img/svg/star.svg" alt="" />
+                                <p>4.9</p>
+                            </div>
+                        </div>
+                        <!-- two -->
+                        <div class="pop-img pop-img-2">
+                            <img
+                                class="pop-img"
+                                src="./res/img/popular_tour-2.png"
+                                alt=""
+                            />
+                            <div class="pop-img-details">
+                                <p class="pop-img-header">Ночь в горах</p>
+                                <p class="pop-img-text">в компании друзей</p>
+                            </div>
+                            <p class="pop-img-price">500 $</p>
+                            <div class="pop-img-rating">
+                                <img src="./res/img/svg/star.svg" alt="" />
+                                <p>4.5</p>
+                            </div>
+                        </div>
+                        <!-- three -->
+                        <div class="pop-img pop-img-3">
+                            <img
+                                class="pop-img"
+                                src="./res/img/popular_tour-3.png"
+                                alt=""
+                            />
+                            <div class="pop-img-details">
+                                <p class="pop-img-header">Йога в горах</p>
+                                <p class="pop-img-text">
+                                    для тех, кто забоится о себе
+                                </p>
+                            </div>
+                            <p class="pop-img-price">230 $</p>
+                            <div class="pop-img-rating">
+                                <img src="./res/img/svg/star.svg" alt="" />
+                                <p>5.0</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button-panel">
+                        <button class="btn" type="button">
+                            Рейтинг направлений
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!----------------------------------------------->
+            <!--                   BLOG                    -->
+            <!----------------------------------------------->
+            <section class="blog ">
+                <div class="wrapper">
+                    <h3 class="text-center">
+                        делимся впечатлениями Блог о путешествиях
+                    </h3>
+                    <h2 class="text-center">Блог о путешествиях</h2>
+
+                    <div class="blog-cards grid">
+                        <div class="blog-card blog-card-1 ">
+                            <img src="./res/img/blog-1.png" alt="" />
+
+                            <div class="blog-card-detail">
+                                <h4>
+                                    Красивая Италия, какая она в реальности?
+                                </h4>
+                                <p>
+                                    Для современного мира базовый вектор
+                                    развития предполагает независимые способы
+                                    реализации соответствующих условий
+                                    активизации.
+                                </p>
+                                <div class="blog-date-more">
+                                    <p>01/04/2023</p>
+
+                                    <a href="#">читать статью</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-card blog-card-2 ">
+                            <img src="./res/img/blog-2.png" alt="" />
+
+                            <div class="blog-card-detail">
+                                <h4>
+                                    Долой сомнения! Весь мир открыт для вас!
+                                </h4>
+                                <p>
+                                    Для современного мира базовый вектор
+                                    развития предполагает независимые способы
+                                    реализации соответствующих условий
+                                    активизации ... независимые способы
+                                    реализации соответствующих условий
+                                    активизации ...
+                                </p>
+                                <div class="blog-date-more">
+                                    <p>01/04/2023</p>
+
+                                    <a href="#">читать статью</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-card blog-card-3 ">
+                            <img src="./res/img/blog-3.png" alt="" />
+
+                            <div class="blog-card-detail">
+                                <h4>
+                                    Как подготовиться к путешествию в одиночку?
+                                </h4>
+                                <p>
+                                    Для современного мира базовый вектор
+                                    развития предполагает.
+                                </p>
+                                <div class="blog-date-more">
+                                    <p>01/04/2023</p>
+
+                                    <a href="#">читать статью</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-card blog-card-4 ">
+                            <img src="./res/img/blog-1.png" alt="" />
+
+                            <div class="blog-card-detail">
+                                <h4>
+                                    Красивая Италия, какая она в реальности?
+                                </h4>
+                                <p>
+                                    Для современного мира базовый вектор
+                                    развития предполагает независимые способы
+                                    реализации соответствующих условий
+                                    активизации.
+                                </p>
+                                <div class="blog-date-more">
+                                    <p>01/04/2023</p>
+
+                                    <a href="#">читать статью</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-panel">
+                        <button class="btn" type="button">
+                            Другие материалы
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="photo">
+                <div class="wrapper">
+                    <h3 class="text-center">фото-отчет</h3>
+                    <h2 class="text-center">Делимся впечатлениями</h2>
+
+                    <div class="photo-grid grid">
+                        <img
+                            class="photo-1"
+                            src="./res/img/photos/report-1.png"
+                            alt=""
+                        />
+                        <img
+                            class="photo-2"
+                            src="./res/img/photos/report-2.png"
+                            alt=""
+                        />
+                        <img
+                            class="photo-3"
+                            src="./res/img/photos/report-3.png"
+                            alt=""
+                        />
+                        <img
+                            class="photo-4"
+                            src="./res/img/photos/report-4.png"
+                            alt=""
+                        />
+                        <img
+                            class="photo-5"
+                            src="./res/img/photos/report-5.png"
+                            alt=""
+                        />
+                        <img
+                            class="photo-6"
+                            src="./res/img/photos/report-6.png"
+                            alt=""
+                        />
+                    </div>
+
+                    <div class="button-panel">
+                        <button class="btn" type="button">
+                            Наш pinterest
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script defer src="./res/js/main.js"></script>
+    </body>
 </html>
