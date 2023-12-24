@@ -379,7 +379,6 @@ header {
     width: 260px;
 }
 
-
 .map-button {
     display: flex;
     justify-content: center;
@@ -624,4 +623,21 @@ footer {
     &::marker {
         content: ">";
     }
+}
+
+/************************************************/
+/*                    DIALOG                    */
+/************************************************/
+#map-dialog {
+    left: 30vw;
+    top: 20vh;
+    border: 3px solid var(--bg-second);
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#closeDlg {
+    margin: 0 20px 20px 20px;
 }
