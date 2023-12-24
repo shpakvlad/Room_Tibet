@@ -126,7 +126,7 @@ h5 {
 /*                    HEADER                    */
 /************************************************/
 header {
-    background-image: url("../img/bg/hero.png");
+    background-image: url("/res/img/bg/hero.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -200,10 +200,10 @@ header {
     font: 77%/150% "Nunito_Sans-regular";
 }
 
-button[type="button"] {
+/* button[type="button"] {
     width: 213px;
     height: 52px;
-}
+} */
 
 /************************************************/
 /*                    ABOUT                     */
@@ -319,6 +319,7 @@ button[type="button"] {
     border-radius: 32px;
     position: relative;
     width: 380px;
+    cursor: pointer;
 }
 
 .pop-img-details {
