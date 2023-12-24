@@ -319,14 +319,13 @@ header {
     border-radius: 32px;
     position: relative;
     width: 380px;
-    cursor: pointer;
 }
 
 .pop-img-details {
     width: 100%;
-    padding: 20px 32px 23px 35px;
+    padding: 20px 32px 25px 35px;
     position: absolute;
-    bottom: 0;
+    bottom: 63px;
     left: 0;
     border-bottom-left-radius: 32px;
     border-bottom-right-radius: 32px;
@@ -347,7 +346,7 @@ header {
     padding: 8px 16px;
     position: absolute;
     right: 32px;
-    bottom: 25px;
+    bottom: 90px;
     font: 111%/24px "Nunito_Sans-bold";
     color: var(--font-color);
     background-color: rgba(255, 255, 255, 0.3);
@@ -380,6 +379,11 @@ header {
     width: 260px;
 }
 
+
+.map-button {
+    display: flex;
+    justify-content: center;
+}
 /************************************************/
 /*                     BLOG                     */
 /************************************************/
